@@ -1,0 +1,51 @@
+.main-container {
+    display: grid;
+    height: 700px;
+    grid-template-columns: 300px 2fr 2fr;
+    grid-template-rows: 80px 1fr 1fr 100px;
+    grid-gap: 4px;
+    grid-template-areas: 
+    "header header header"
+    "aside1 section1 section1"
+    "section2 section2 aside2"
+    "footer footer footer";
+}
+.box1 {
+color: white;
+background-color: blue;
+border: 2px solid black;
+}
+.box2 {
+    color: black;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+.box3 {
+    color: black;
+    background-color: yellowgreen;
+    border: 2px solid black;
+}
+.header {
+    grid-area: header;
+}
+.aside1 {
+    grid-area: aside1;
+}
+.aside2 {
+    grid-area: aside2;
+}
+.section1 {
+    grid-area: section1;
+}
+.section2 {
+    grid-area: section2;
+}
+.footer {
+    grid-area: footer;
+}
+.bg-main {
+    background-color: darkcyan;
+}
+.bg-second {
+    background-color: rgb(99, 42, 110);
+}

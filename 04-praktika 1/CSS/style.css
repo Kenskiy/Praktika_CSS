@@ -1,0 +1,6 @@
+body{
+    background-size: 10%, 20%, 100%;
+    background-image: url(../IMG/SPIDER.png), url(../IMG/RACCOON.png), url(../IMG/FONAS.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left top, right top, left top;
+}

@@ -1,0 +1,36 @@
+.atskyras {
+    text-align: center;
+    background-color: rgba(18, 53, 129, 0.781);
+    color: white;
+    height: 50px;
+}
+.a1 {
+    background-color: violet;
+}
+.a2, .b1 {
+    background-color: pink;
+}
+.a3, .b2 {
+    background-color: sandybrown;
+}
+.a4, .b2 {
+    background-color: wheat;
+}
+.container1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: flex-start;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box {
+    flex-wrap: wrap;
+    height: 200px;
+    flex-grow: 1;
+}
